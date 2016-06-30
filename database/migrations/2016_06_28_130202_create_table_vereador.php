@@ -16,7 +16,7 @@ class CreateTableVereador extends Migration
             $table->increments('id');
             $table->string('nome', 255);
             $table->date('data');
-            $table->string('string')->default('(88)90000-0000');
+            $table->string('fone')->default('(88)90000-0000');
             $table->string('filiacao');
             $table->string('mandatos');
             $table->string('avatar')->default('default.jpg');
